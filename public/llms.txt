@@ -1,0 +1,57 @@
+# PerfectTales — Personalized AI Bedtime Stories for Kids
+
+> PerfectTales is a mobile app (iOS) that creates personalized, AI-generated bedtime stories for children aged 3-11 with beautiful illustrations, customizable themes, and support for 55 languages.
+
+## About
+
+PerfectTales lets parents create unique bedtime stories where their child is the hero. Each story is generated using AI and features:
+
+- The child's name and age built into the narrative
+- Beautiful, AI-generated illustrations
+- Age-appropriate vocabulary and content (ages 3-11)
+- Rated 4+ on the App Store
+- Zero data collection — full privacy
+
+## Key Features
+
+- **Personalized Characters**: Child's name and age integrated into every story
+- **8 Story Themes**: Friendly Animals, Dragons, Magic & Spells, Fairy Tales, Space, Ocean Adventures, Unicorns, Robots
+- **4 Art Styles**: Watercolor, Classic Storybook, Soft Pastel, Paper Craft
+- **4 Moods**: Adventurous, Calming, Funny, Educational
+- **Story Lengths**: 3, 5, or 7 minutes
+- **Values-Based Lessons**: Embed meaningful life lessons in stories
+- **55 Languages**: Generate stories in 55 different languages
+- **Offline Reading**: Stories save automatically for offline access
+- **Save Favorites**: Keep beloved characters and stories for later
+
+## Pricing
+
+- Free: Limited stories per week, all themes available
+- Premium Weekly: $3.99/week — unlimited stories, all features
+- Story Pack: $5.99 one-time — bundle of story credits
+
+## Compatibility
+
+- iPhone / iPad: iOS 15.1 or later
+- Mac: macOS 12.0 or later (Apple M1 chip required)
+- Apple Vision Pro: visionOS 1.0 or later
+
+## Developer
+
+- Name: Simon Majar
+- App Size: 59.6 MB
+- Category: Entertainment
+- App Store ID: 6757753343
+
+## Links
+
+- Website: https://perfecttales.app
+- App Store: https://apps.apple.com/us/app/perfecttales-bedtime-stories/id6757753343
+- Privacy Policy: https://perfecttales.app/privacy
+- Terms of Service: https://perfecttales.app/terms
+
+## Pages
+
+- [Home](https://perfecttales.app/): Main landing page with app overview, features, pricing, and FAQ
+- [Privacy Policy](https://perfecttales.app/privacy): Privacy policy and data handling
+- [Terms of Service](https://perfecttales.app/terms): Terms and conditions

@@ -1,0 +1,16 @@
+{
+  "name": "PerfectTales — Personalized AI Bedtime Stories",
+  "short_name": "PerfectTales",
+  "description": "Create magical, personalized bedtime stories for children aged 3-11 with AI-generated illustrations.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fefcfb",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}

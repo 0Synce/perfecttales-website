@@ -1,0 +1,129 @@
+# PerfectTales — Personalized AI Bedtime Stories for Kids
+
+## Complete Product Information
+
+### What is PerfectTales?
+
+PerfectTales is an iOS mobile application that creates personalized, AI-generated bedtime stories for children aged 3 to 11. The app generates unique, illustrated tales where the child becomes the hero of their own story. Parents can customize every aspect of the story — from the child's name and age to the theme, mood, art style, length, and embedded values.
+
+### Problem PerfectTales Solves
+
+Parents often struggle to find fresh, engaging bedtime stories that:
+1. Keep their child's attention
+2. Are age-appropriate
+3. Teach meaningful values
+4. Are available in their native language
+5. Don't require internet access every time
+
+PerfectTales solves all of these by generating unlimited, unique stories personalized to each child.
+
+### Target Audience
+
+- Parents of children aged 3-11
+- Grandparents and caregivers
+- Bilingual and multilingual families (55 languages)
+- Families who value bedtime routines
+- Parents looking for educational entertainment
+- Families on the go (offline reading)
+
+### Feature Details
+
+#### Personalization Engine
+The core of PerfectTales is its AI personalization engine. When creating a story, parents input:
+- **Child's Name**: Woven naturally into the narrative as the main character
+- **Child's Age**: 3 to 11 years old, affecting vocabulary complexity, sentence structure, and theme maturity
+- **Story Theme**: Choose from 8 themes:
+  1. Friendly Animals — stories about animal friends and nature
+  2. Dragons — magical dragon adventures
+  3. Magic & Spells — wizards, potions, and enchantments
+  4. Fairy Tales — classic fairy tale-inspired stories
+  5. Space — cosmic adventures among stars and planets
+  6. Ocean Adventures — underwater exploration and sea creatures
+  7. Unicorns — magical unicorn journeys
+  8. Robots — futuristic robot adventures
+- **Mood Selection**: Sets the tone of the story:
+  1. Adventurous — exciting, action-filled tales
+  2. Calming — soothing stories perfect for winding down
+  3. Funny — humorous tales that make kids giggle
+  4. Educational — stories that teach concepts and knowledge
+- **Art Style**: Visual style for illustrations:
+  1. Watercolor — soft, flowing colors with dreamlike quality
+  2. Classic Storybook — traditional children's book illustration style
+  3. Soft Pastel — gentle, muted tones for a calming atmosphere
+  4. Paper Craft — charming cut-paper style with handmade quality
+- **Story Length**: 3 minutes, 5 minutes, or 7 minutes
+- **Values & Lessons**: Optional values-based themes embedded in the narrative (kindness, courage, honesty, teamwork, etc.)
+
+#### Language Support
+PerfectTales generates stories in 55 languages, making it ideal for:
+- Native language storytelling
+- Language learning and exposure
+- Bilingual families
+- International use
+
+#### Offline Functionality
+All generated stories are automatically saved to the device for offline access. This means stories are available:
+- During bedtime (no Wi-Fi needed)
+- On road trips and flights
+- In areas with poor connectivity
+- Without consuming additional data
+
+#### Favorites System
+Users can save favorite stories and characters to:
+- Revisit beloved tales
+- Continue adventures with the same characters
+- Build a personal library of stories
+
+### Technical Specifications
+
+- **App Size**: 59.6 MB
+- **iOS Requirement**: iOS 15.1 or later
+- **macOS Requirement**: macOS 12.0 or later (Apple M1 chip or later)
+- **visionOS Requirement**: visionOS 1.0 or later
+- **Age Rating**: 4+
+- **Category**: Entertainment
+- **Latest Version**: 1.3 (February 2025)
+
+### Privacy & Data
+
+PerfectTales takes a privacy-first approach:
+- **Zero data collection**: The developer does not collect any data from users
+- **On-device storage**: Stories and preferences stay on the user's device
+- **No third-party tracking**: No analytics or advertising SDKs
+- **Child safety**: Rated 4+ with age-appropriate content only
+
+### Pricing Structure
+
+| Plan | Price | Details |
+|------|-------|---------|
+| Free | $0 | Limited stories per week, all themes available |
+| Premium Weekly | $3.99/week | Unlimited stories, all art styles, offline reading, save favorites, all languages, priority generation |
+| Premium Monthly | $17.99/month | Same as weekly but billed monthly |
+| Story Pack | $5.99 one-time | Bundle of story credits, no expiration |
+
+All purchases are made through the Apple App Store. Users can cancel anytime.
+
+### App Store Information
+
+- **App Name**: PerfectTales - Bedtime Stories
+- **App Store ID**: 6757753343
+- **App Store URL**: https://apps.apple.com/us/app/perfecttales-bedtime-stories/id6757753343
+- **Developer**: Simon Majar
+- **Available on**: iPhone, iPad, Mac (M1+), Apple Vision Pro
+
+### Website
+
+- **URL**: https://perfecttales.app
+- **Privacy Policy**: https://perfecttales.app/privacy
+- **Terms of Service**: https://perfecttales.app/terms
+
+### Competitive Advantages
+
+1. **Deep personalization**: More customization options than competing story apps
+2. **Art style variety**: 4 distinct visual styles for illustrations
+3. **Privacy-first**: Zero data collection — rare among children's apps
+4. **Multilingual**: 55 languages — broader than most competitors
+5. **Offline access**: Full offline reading capability
+6. **Apple ecosystem**: Native support for iPhone, iPad, Mac, and Vision Pro
+7. **Values integration**: Ability to embed life lessons in stories
+8. **Adjustable length**: 3/5/7 minute options for different situations

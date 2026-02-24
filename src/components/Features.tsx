@@ -1,0 +1,88 @@
+const features = [
+  {
+    icon: "👤",
+    title: "Personalized Characters",
+    description:
+      "Your child becomes the hero! Add their name, age, and watch as they star in their own unique adventure.",
+    color: "from-primary/10 to-accent/10",
+    border: "border-primary/20",
+  },
+  {
+    icon: "🎨",
+    title: "Beautiful Illustrations",
+    description:
+      "Choose from watercolor, classic storybook, soft pastel, or paper craft art styles. Each story is a visual masterpiece.",
+    color: "from-accent/10 to-secondary/10",
+    border: "border-accent/20",
+  },
+  {
+    icon: "🌍",
+    title: "55 Languages",
+    description:
+      "Stories generated in 55 languages, making bedtime magical for children around the world.",
+    color: "from-secondary/10 to-primary/10",
+    border: "border-secondary/20",
+  },
+  {
+    icon: "⏱️",
+    title: "Perfect Length",
+    description:
+      "Choose between 3, 5, or 7-minute stories — just the right length for winding down before sleep.",
+    color: "from-primary/10 to-blue-100",
+    border: "border-primary/20",
+  },
+  {
+    icon: "💫",
+    title: "Mood & Values",
+    description:
+      "Select the mood — Adventurous, Calming, Funny, or Educational — and embed meaningful life lessons in every tale.",
+    color: "from-pink-50 to-accent/10",
+    border: "border-accent/20",
+  },
+  {
+    icon: "📴",
+    title: "Works Offline",
+    description:
+      "Stories save automatically for offline reading. Perfect for road trips, flights, or when Wi-Fi isn't available.",
+    color: "from-green-50 to-emerald-50",
+    border: "border-green-200",
+  },
+];
+
+export default function Features() {
+  return (
+    <section id="features" className="relative py-20 sm:py-28 bg-background">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Header */}
+        <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-primary/5 rounded-full text-primary text-sm font-semibold mb-4">
+            <span>✨</span> Why Parents Love PerfectTales
+          </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground mb-5">
+            Bedtime Stories, <span className="gradient-text">Reimagined</span>
+          </h2>
+          <p className="text-lg text-muted leading-relaxed">
+            Every story is one-of-a-kind, crafted with AI and designed to spark imagination,
+            teach values, and create precious moments between parent and child.
+          </p>
+        </div>
+
+        {/* Features Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          {features.map((feature) => (
+            <article
+              key={feature.title}
+              className={`group relative p-6 sm:p-8 rounded-3xl bg-gradient-to-br ${feature.color} border ${feature.border} hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 hover:-translate-y-1`}
+            >
+              <div className="text-4xl mb-4">{feature.icon}</div>
+              <h3 className="text-xl font-bold text-foreground mb-2">
+                {feature.title}
+              </h3>
+              <p className="text-muted leading-relaxed">{feature.description}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
