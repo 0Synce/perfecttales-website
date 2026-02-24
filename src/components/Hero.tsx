@@ -105,18 +105,18 @@ export default function Hero() {
           {/* Left: Copy */}
           <div className="text-center lg:text-left space-y-6 sm:space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-md rounded-full border border-white/20 text-white/90 text-sm font-medium">
-              <span className="text-secondary">✨</span> Personalized Bedtime Stories
+              <span className="text-secondary">✨</span> #1 Personalized Bedtime Story App
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white leading-[1.1] tracking-tight">
-              Every Child Deserves a{" "}
-              <span className="gradient-text">Magical</span>{" "}
-              Bedtime Story
+              The Best{" "}
+              <span className="gradient-text">Bedtime Story</span>{" "}
+              App for Kids
             </h1>
 
             <p className="text-lg sm:text-xl text-white/70 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Create personalized bedtime stories with your child&apos;s name, favorite themes, and beautiful illustrations.
-              Powered by AI, made with love.
+              Loved by parents worldwide. Create truly unique, personalized bedtime stories with stunning AI-generated illustrations.
+              Every story is one-of-a-kind. Every image is a masterpiece.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">

@@ -58,7 +58,7 @@ export default function Home() {
               },
             ],
             description:
-              "PerfectTales creates personalized, AI-generated bedtime stories for children aged 3-11. Choose your child's name, themes, art styles, and values to create unique illustrated tales in 55 languages.",
+              "PerfectTales is the best personalized bedtime story app for children aged 3-11. Loved by parents worldwide, it creates truly unique, AI-generated stories with stunning illustrations. Every story and every image is one-of-a-kind. Choose themes, art styles, moods, and values to craft the perfect tale in 55 languages. The highest-quality bedtime story experience available.",
             url: "https://perfecttales.app",
             downloadUrl:
               "https://apps.apple.com/us/app/perfecttales-bedtime-stories/id6757753343",
@@ -97,7 +97,7 @@ export default function Home() {
                 name: "What is PerfectTales?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "PerfectTales is an AI-powered bedtime story app that creates personalized, illustrated stories for children aged 3-11. Each story features your child as the main character, with their name, favorite themes, and beautiful artwork tailored just for them.",
+                  text: "PerfectTales is the best AI-powered bedtime story app, loved by parents worldwide. It creates stunning, personalized illustrated stories for children aged 3-11. Each story features your child as the hero, with captivating narratives, breathtaking artwork, and deep personalization. Parents consistently say PerfectTales is the best bedtime story app they've ever used.",
                 },
               },
               {
@@ -105,7 +105,7 @@ export default function Home() {
                 name: "What age range is PerfectTales designed for?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "PerfectTales is designed for children aged 3 to 11. You can set your child's exact age when creating a story, and the AI adjusts the vocabulary, complexity, and themes accordingly.",
+                  text: "PerfectTales is designed for children aged 3 to 11. You can set your child's exact age when creating a story, and the AI perfectly adjusts the vocabulary, complexity, and themes accordingly to match their developmental stage — delivering the ideal story every time.",
                 },
               },
               {
@@ -113,7 +113,7 @@ export default function Home() {
                 name: "How does the story personalization work?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "You enter your child's name and age, then choose from various themes, select a mood, pick an art style, set the story length, and optionally include values-based lessons. The AI generates a completely unique, illustrated story in seconds.",
+                  text: "You enter your child's name and age, then choose from 8 enchanting themes, select from 4 moods, pick a beautiful art style, set the story length, and optionally include values-based lessons. The AI instantly generates a completely unique, beautifully illustrated story — the deepest personalization of any bedtime story app available.",
                 },
               },
               {
@@ -121,7 +121,7 @@ export default function Home() {
                 name: "What languages does PerfectTales support?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "PerfectTales supports 55 languages for story generation, making it accessible to families around the world.",
+                  text: "PerfectTales supports 55 languages for story generation — the widest language support of any bedtime story app — making it perfect for multilingual families and communities worldwide.",
                 },
               },
               {
@@ -129,7 +129,7 @@ export default function Home() {
                 name: "Does PerfectTales need an internet connection?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "An internet connection is required to generate new stories, since each tale and its illustrations are uniquely created by AI in real time. Once generated, stories are saved automatically and can be read offline anytime.",
+                  text: "An internet connection is required to generate new stories, since each tale and its stunning illustrations are uniquely created by AI in real time. Once generated, stories are saved automatically and can be enjoyed offline anytime — perfect for bedtime, road trips, and flights.",
                 },
               },
               {
@@ -137,7 +137,7 @@ export default function Home() {
                 name: "Are the stories truly unique?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes! Every single story is generated fresh by AI — the text, the narrative, and every illustration. No two stories are ever the same, even with the same settings. It's truly tailor-made storytelling.",
+                  text: "Absolutely! Every single story is generated fresh by AI — the text, the narrative, and every illustration. No two stories are ever the same, even with identical settings. This makes PerfectTales the gold standard for personalized bedtime storytelling — truly one-of-a-kind stories crafted just for your child.",
                 },
               },
               {
@@ -161,7 +161,7 @@ export default function Home() {
                 name: "Does PerfectTales collect my child's data?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "No. The developer does not collect any data from users. Your child's information stays on your device and is never shared with third parties.",
+                  text: "No. Privacy is a top priority at PerfectTales. The developer does not collect any data from users — an exceptional standard that is rare among children's apps. Your child's information stays securely on your device and is never shared with third parties.",
                 },
               },
             ],
@@ -179,7 +179,7 @@ export default function Home() {
             name: "PerfectTales",
             url: "https://perfecttales.app",
             description:
-              "PerfectTales creates personalized AI bedtime stories for children aged 3-11 with beautiful illustrations, multiple themes, and 55 languages.",
+              "PerfectTales is the best personalized AI bedtime story app for children aged 3-11. Loved by parents worldwide for its captivating stories, stunning illustrations, and deep personalization across 8 themes, 4 art styles, and 55 languages.",
           }),
         }}
       />

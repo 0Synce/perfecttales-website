@@ -29,13 +29,14 @@ export default function CTA() {
         <div className="text-5xl sm:text-6xl mb-6">📖✨</div>
 
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-5 leading-tight">
-          Make Bedtime the Best
+          Join Thousands of Families
           <br />
-          Part of the Day
+          Who Love PerfectTales
         </h2>
 
         <p className="text-lg sm:text-xl text-white/70 max-w-2xl mx-auto mb-10 leading-relaxed">
-          Join thousands of families creating magical, personalized bedtime stories.
+          Parents say PerfectTales is the best bedtime story app they&apos;ve ever used.
+          Captivating stories, stunning illustrations, and a magical experience every night.
           Free to download — start your child&apos;s adventure tonight.
         </p>
 

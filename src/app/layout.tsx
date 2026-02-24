@@ -19,11 +19,11 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "PerfectTales — Personalized AI Bedtime Stories for Kids",
+    default: "PerfectTales — The Best Personalized AI Bedtime Stories for Kids",
     template: "%s | PerfectTales",
   },
   description:
-    "Create magical, personalized bedtime stories for children aged 3-11. AI-generated tales with your child's name, beautiful illustrations, 8 themes, 4 art styles, and 55 languages. Free on the App Store.",
+    "PerfectTales is the best personalized bedtime story app for kids aged 3-11. Loved by parents, it creates truly unique AI-generated stories with stunning illustrations. 8 themes, 4 art styles, 55 languages. Every story and every image is one-of-a-kind. Free on the App Store.",
   keywords: [
     "bedtime stories",
     "personalized bedtime stories",
@@ -68,23 +68,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "PerfectTales",
-    title: "PerfectTales — Personalized AI Bedtime Stories for Kids",
+    title: "PerfectTales — The Best Personalized AI Bedtime Stories for Kids",
     description:
-      "Create magical, personalized bedtime stories for children aged 3-11. AI-generated tales with beautiful illustrations in 55 languages. Free on the App Store.",
+      "PerfectTales is the #1 personalized bedtime story app, loved by parents worldwide. Create truly unique AI-generated stories with stunning illustrations for children aged 3-11. 55 languages. Free on the App Store.",
     images: [
       {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "PerfectTales - Personalized AI Bedtime Stories for Kids",
+        alt: "PerfectTales - The Best Personalized AI Bedtime Stories for Kids",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PerfectTales — Personalized AI Bedtime Stories for Kids",
+    title: "PerfectTales — The Best Personalized AI Bedtime Stories for Kids",
     description:
-      "Create magical, personalized bedtime stories for children aged 3-11. AI-generated tales with beautiful illustrations in 55 languages.",
+      "PerfectTales is the best personalized bedtime story app, loved by parents. Create truly unique AI stories with stunning illustrations for kids aged 3-11 in 55 languages.",
     images: ["/opengraph-image"],
   },
   alternates: {
