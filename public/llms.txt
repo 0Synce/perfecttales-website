@@ -21,7 +21,8 @@ PerfectTales lets parents create unique bedtime stories where their child is the
 - **Story Lengths**: 3, 5, or 7 minutes
 - **Values-Based Lessons**: Embed meaningful life lessons in stories
 - **55 Languages**: Generate stories in 55 different languages
-- **Offline Reading**: Stories save automatically for offline access
+- **Truly Unique**: Every story and every illustration is uniquely generated — no two are ever the same
+- **Online Generation, Offline Reading**: Internet needed to generate stories via AI; once created, stories save automatically for offline access
 - **Save Favorites**: Keep beloved characters and stories for later
 
 ## Pricing
@@ -52,6 +53,6 @@ PerfectTales lets parents create unique bedtime stories where their child is the
 
 ## Pages
 
-- [Home](https://perfecttales.app/): Main landing page with app overview, features, pricing, and FAQ
+- [Home](https://perfecttales.app/): Main landing page with app overview, features, and FAQ
 - [Privacy Policy](https://perfecttales.app/privacy): Privacy policy and data handling
 - [Terms of Service](https://perfecttales.app/terms): Terms and conditions

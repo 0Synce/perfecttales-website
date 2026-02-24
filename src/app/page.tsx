@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import HowItWorks from "@/components/HowItWorks";
 import Themes from "@/components/Themes";
-import Pricing from "@/components/Pricing";
+
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -17,7 +17,7 @@ export default function Home() {
         <Features />
         <HowItWorks />
         <Themes />
-        <Pricing />
+
         <FAQ />
         <CTA />
       </main>
@@ -126,10 +126,18 @@ export default function Home() {
               },
               {
                 "@type": "Question",
-                name: "Can I use PerfectTales without an internet connection?",
+                name: "Does PerfectTales need an internet connection?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes! Stories are automatically saved for offline reading. Once a story is generated, you can access it anytime without Wi-Fi.",
+                  text: "An internet connection is required to generate new stories, since each tale and its illustrations are uniquely created by AI in real time. Once generated, stories are saved automatically and can be read offline anytime.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Are the stories truly unique?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes! Every single story is generated fresh by AI — the text, the narrative, and every illustration. No two stories are ever the same, even with the same settings. It's truly tailor-made storytelling.",
                 },
               },
               {

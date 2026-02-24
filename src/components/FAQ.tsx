@@ -24,9 +24,14 @@ const faqs = [
       "PerfectTales supports 55 languages for story generation, making it accessible to families around the world. You can create stories in your child's native language or use it as a fun way to introduce them to new languages.",
   },
   {
-    question: "Can I use PerfectTales without an internet connection?",
+    question: "Does PerfectTales need an internet connection?",
     answer:
-      "Yes! Stories are automatically saved for offline reading. Once a story is generated, you can access it anytime without Wi-Fi — perfect for bedtime, road trips, flights, or anywhere you go.",
+      "An internet connection is required to generate new stories, since each tale and its illustrations are uniquely created by AI in real time. However, once a story is generated, it's saved automatically to your device and can be read offline anytime — perfect for bedtime, road trips, flights, or anywhere you go.",
+  },
+  {
+    question: "Are the stories truly unique?",
+    answer:
+      "Yes! Every single story is generated fresh by AI — the text, the narrative, and every illustration. No two stories are ever the same, even if you use the same settings. It's truly tailor-made storytelling for your child.",
   },
   {
     question: "Is PerfectTales free?",
