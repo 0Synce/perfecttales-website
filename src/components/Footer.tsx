@@ -11,8 +11,8 @@ export default function Footer() {
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary via-accent to-secondary flex items-center justify-center text-white font-bold text-lg">
                 P
               </div>
-              <span className="font-bold text-lg text-white">
-                Perfect<span className="text-primary-light">Tales</span>
+              <span className="font-bold text-lg text-primary-light">
+                PerfectTales
               </span>
             </div>
             <p className="text-sm leading-relaxed mb-4">

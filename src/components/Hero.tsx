@@ -1,74 +1,75 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 
 function Star({ style }: { style: React.CSSProperties }) {
   return <div className="star" style={style} />;
 }
 
+const screenshots = [
+  "/screenshots/IMG_3599.PNG",
+  "/screenshots/IMG_3600.PNG",
+  "/screenshots/IMG_3601.PNG",
+  "/screenshots/IMG_3602.PNG",
+  "/screenshots/IMG_3635.PNG",
+  "/screenshots/IMG_3636.PNG",
+];
+
 function PhoneMockup() {
+  const [current, setCurrent] = useState(0);
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  const goToNext = useCallback(() => {
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setCurrent((prev) => (prev + 1) % screenshots.length);
+      setIsTransitioning(false);
+    }, 400);
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(goToNext, 3500);
+    return () => clearInterval(interval);
+  }, [goToNext]);
+
   return (
     <div className="phone-mockup animate-float-slow">
-      <div className="phone-screen">
-        {/* Stars inside phone */}
-        {[...Array(8)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute w-1 h-1 bg-secondary rounded-full"
-            style={{
-              top: `${15 + Math.random() * 70}%`,
-              left: `${10 + Math.random() * 80}%`,
-              animation: `twinkle ${2 + Math.random() * 3}s ease-in-out infinite`,
-              animationDelay: `${Math.random() * 2}s`,
-            }}
+      <div className="phone-screen relative !p-0">
+        {/* Screenshot slideshow */}
+        <div className="absolute inset-0 rounded-[30px] overflow-hidden">
+          <Image
+            src={screenshots[current]}
+            alt={`PerfectTales app screenshot ${current + 1}`}
+            fill
+            className={`object-cover transition-opacity duration-400 ${
+              isTransitioning ? "opacity-0" : "opacity-100"
+            }`}
+            sizes="280px"
+            priority={current === 0}
           />
-        ))}
+        </div>
 
-        {/* Moon */}
-        <div className="absolute top-12 right-6 w-14 h-14 rounded-full bg-gradient-to-br from-secondary-light to-secondary shadow-lg shadow-secondary/40" />
-        <div className="absolute top-13 right-7 w-10 h-10 rounded-full bg-[#1e1145]" />
-
-        {/* App UI Mock */}
-        <div className="relative z-10 text-center space-y-4 mt-4">
-          <div className="text-3xl">📖✨</div>
-          <div className="text-white/90 text-sm font-semibold tracking-wide">PerfectTales</div>
-          <div className="w-44 mx-auto space-y-2">
-            <div className="h-2 bg-white/20 rounded-full" />
-            <div className="h-2 bg-white/15 rounded-full w-36 mx-auto" />
-            <div className="h-2 bg-white/10 rounded-full w-28 mx-auto" />
-          </div>
-          <div className="mt-4 space-y-2">
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-3 text-left">
-              <div className="flex items-center gap-2 mb-1">
-                <div className="w-6 h-6 rounded-full bg-gradient-to-br from-accent to-primary flex items-center justify-center text-[10px]">🐉</div>
-                <span className="text-white/70 text-[11px] font-medium">Dragon Adventure</span>
-              </div>
-              <div className="space-y-1">
-                <div className="h-1.5 bg-white/10 rounded-full" />
-                <div className="h-1.5 bg-white/10 rounded-full w-4/5" />
-              </div>
-            </div>
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-3 text-left">
-              <div className="flex items-center gap-2 mb-1">
-                <div className="w-6 h-6 rounded-full bg-gradient-to-br from-secondary to-accent flex items-center justify-center text-[10px]">🦄</div>
-                <span className="text-white/70 text-[11px] font-medium">Unicorn Dreams</span>
-              </div>
-              <div className="space-y-1">
-                <div className="h-1.5 bg-white/10 rounded-full" />
-                <div className="h-1.5 bg-white/10 rounded-full w-3/5" />
-              </div>
-            </div>
-            <div className="bg-white/10 backdrop-blur rounded-2xl p-3 text-left">
-              <div className="flex items-center gap-2 mb-1">
-                <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-400 to-primary flex items-center justify-center text-[10px]">🚀</div>
-                <span className="text-white/70 text-[11px] font-medium">Space Journey</span>
-              </div>
-              <div className="space-y-1">
-                <div className="h-1.5 bg-white/10 rounded-full" />
-                <div className="h-1.5 bg-white/10 rounded-full w-3/4" />
-              </div>
-            </div>
-          </div>
+        {/* Slide indicators */}
+        <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5 z-20">
+          {screenshots.map((_, i) => (
+            <button
+              key={i}
+              onClick={() => {
+                setIsTransitioning(true);
+                setTimeout(() => {
+                  setCurrent(i);
+                  setIsTransitioning(false);
+                }, 400);
+              }}
+              className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+                i === current
+                  ? "bg-white w-4"
+                  : "bg-white/40 hover:bg-white/60"
+              }`}
+              aria-label={`Go to screenshot ${i + 1}`}
+            />
+          ))}
         </div>
       </div>
     </div>
@@ -76,19 +77,6 @@ function PhoneMockup() {
 }
 
 export default function Hero() {
-  const starsRef = useRef<{ top: string; left: string; duration: string; delay: string }[]>([]);
-
-  useEffect(() => {
-    if (starsRef.current.length === 0) {
-      starsRef.current = [...Array(20)].map(() => ({
-        top: `${Math.random() * 100}%`,
-        left: `${Math.random() * 100}%`,
-        duration: `${2 + Math.random() * 4}s`,
-        delay: `${Math.random() * 3}s`,
-      }));
-    }
-  }, []);
-
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Background gradient */}

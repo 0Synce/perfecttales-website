@@ -34,8 +34,8 @@ export default function Header() {
           <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-br from-primary via-accent to-secondary flex items-center justify-center text-white font-bold text-lg sm:text-xl shadow-lg group-hover:scale-105 transition-transform">
             P
           </div>
-          <span className="font-bold text-lg sm:text-xl text-foreground">
-            Perfect<span className="text-primary">Tales</span>
+          <span className="font-bold text-lg sm:text-xl text-primary">
+            PerfectTales
           </span>
         </Link>
 
