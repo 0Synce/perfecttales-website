@@ -8,12 +8,12 @@ function Star({ style }: { style: React.CSSProperties }) {
 }
 
 const screenshots = [
-  "/screenshots/IMG_3599.PNG",
-  "/screenshots/IMG_3600.PNG",
-  "/screenshots/IMG_3601.PNG",
-  "/screenshots/IMG_3602.PNG",
-  "/screenshots/IMG_3635.PNG",
-  "/screenshots/IMG_3636.PNG",
+  "/screenshots/IMG_3599.webp",
+  "/screenshots/IMG_3600.webp",
+  "/screenshots/IMG_3601.webp",
+  "/screenshots/IMG_3602.webp",
+  "/screenshots/IMG_3635.webp",
+  "/screenshots/IMG_3636.webp",
 ];
 
 function PhoneMockup() {
@@ -84,7 +84,7 @@ export default function Hero() {
 
       {/* Stars */}
       <div className="absolute inset-0 top-0 h-[70%]">
-        {[...Array(30)].map((_, i) => (
+        {[...Array(15)].map((_, i) => (
           <Star
             key={i}
             style={{

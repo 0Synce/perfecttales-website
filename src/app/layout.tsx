@@ -1,15 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: "swap",
 });
 
 const siteUrl = "https://perfecttales.app";
@@ -77,7 +73,7 @@ export const metadata: Metadata = {
       "Create magical, personalized bedtime stories for children aged 3-11. AI-generated tales with beautiful illustrations in 55 languages. Free on the App Store.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
         alt: "PerfectTales - Personalized AI Bedtime Stories for Kids",
@@ -89,7 +85,7 @@ export const metadata: Metadata = {
     title: "PerfectTales — Personalized AI Bedtime Stories for Kids",
     description:
       "Create magical, personalized bedtime stories for children aged 3-11. AI-generated tales with beautiful illustrations in 55 languages.",
-    images: ["/og-image.png"],
+    images: ["/opengraph-image"],
   },
   alternates: {
     canonical: siteUrl,
@@ -105,6 +101,9 @@ export const metadata: Metadata = {
   other: {
     "apple-itunes-app": "app-id=6757753343",
     "application-name": "PerfectTales",
+    "mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "black-translucent",
   },
 };
 
@@ -121,7 +120,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} antialiased`}
       >
         {children}
       </body>
