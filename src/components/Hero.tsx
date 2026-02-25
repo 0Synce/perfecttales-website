@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import Image from "next/image";
 
 function Star({ style }: { style: React.CSSProperties }) {
@@ -18,36 +18,55 @@ const screenshots = [
 
 function PhoneMockup() {
   const [current, setCurrent] = useState(0);
-  const [isTransitioning, setIsTransitioning] = useState(false);
+  const [showCurrent, setShowCurrent] = useState(true);
+  const transitioning = useRef(false);
+  const currentRef = useRef(0);
 
-  const goToNext = useCallback(() => {
-    setIsTransitioning(true);
+  const goTo = useCallback((next: number) => {
+    if (transitioning.current || next === currentRef.current) return;
+    transitioning.current = true;
+
+    // Step 1: fade out current image
+    setShowCurrent(false);
+
+    // Step 2: after fade-out completes, switch index (new image already in DOM)
     setTimeout(() => {
-      setCurrent((prev) => (prev + 1) % screenshots.length);
-      setIsTransitioning(false);
-    }, 400);
+      currentRef.current = next;
+      setCurrent(next);
+      // Step 3: fade in on next frame
+      requestAnimationFrame(() => {
+        setShowCurrent(true);
+        transitioning.current = false;
+      });
+    }, 500);
   }, []);
 
   useEffect(() => {
-    const interval = setInterval(goToNext, 3500);
+    const interval = setInterval(() => {
+      const next = (currentRef.current + 1) % screenshots.length;
+      goTo(next);
+    }, 3500);
     return () => clearInterval(interval);
-  }, [goToNext]);
+  }, [goTo]);
 
   return (
     <div className="phone-mockup animate-float-slow">
       <div className="phone-screen relative !p-0">
-        {/* Screenshot slideshow */}
+        {/* All screenshots stacked — no src swapping, just opacity toggling */}
         <div className="absolute inset-0 rounded-[30px] overflow-hidden">
-          <Image
-            src={screenshots[current]}
-            alt={`PerfectTales app screenshot ${current + 1}`}
-            fill
-            className={`object-cover transition-opacity duration-400 ${
-              isTransitioning ? "opacity-0" : "opacity-100"
-            }`}
-            sizes="280px"
-            priority={current === 0}
-          />
+          {screenshots.map((src, i) => (
+            <Image
+              key={src}
+              src={src}
+              alt={`PerfectTales app screenshot ${i + 1}`}
+              fill
+              className={`object-cover transition-opacity duration-500 ease-in-out ${
+                i === current && showCurrent ? "opacity-100" : "opacity-0"
+              }`}
+              sizes="280px"
+              priority={i === 0}
+            />
+          ))}
         </div>
 
         {/* Slide indicators */}
@@ -55,13 +74,7 @@ function PhoneMockup() {
           {screenshots.map((_, i) => (
             <button
               key={i}
-              onClick={() => {
-                setIsTransitioning(true);
-                setTimeout(() => {
-                  setCurrent(i);
-                  setIsTransitioning(false);
-                }, 400);
-              }}
+              onClick={() => goTo(i)}
               className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
                 i === current
                   ? "bg-white w-4"
