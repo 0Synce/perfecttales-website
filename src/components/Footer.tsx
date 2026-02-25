@@ -61,12 +61,27 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Support */}
+          {/* Resources & Info */}
           <div>
             <h3 className="font-semibold text-white mb-4 text-sm uppercase tracking-wider">
-              Info
+              Resources
             </h3>
             <ul className="space-y-3 text-sm">
+              <li>
+                <Link href="/guides/best-bedtime-story-apps-2026" className="hover:text-white transition-colors">
+                  Best Story Apps Guide
+                </Link>
+              </li>
+              <li>
+                <Link href="/compare/perfecttales-vs-books" className="hover:text-white transition-colors">
+                  PerfectTales vs. Books
+                </Link>
+              </li>
+              <li>
+                <Link href="/brand-facts" className="hover:text-white transition-colors">
+                  Brand Facts
+                </Link>
+              </li>
               <li>
                 <Link href="/privacy" className="hover:text-white transition-colors">
                   Privacy Policy

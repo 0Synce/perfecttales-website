@@ -1,0 +1,45 @@
+{
+  "name": "PerfectTales",
+  "tagline": "The best personalized AI bedtime story app for kids",
+  "category": "Children's Bedtime Story App",
+  "developer": "Simon Majar",
+  "platform": "iOS",
+  "priceRange": "Free — $3.99/week",
+  "topFeatures": [
+    "AI-generated personalized stories with child's name and age",
+    "Stunning unique AI-generated illustrations for every story",
+    "55 languages supported",
+    "8 enchanting story themes",
+    "4 beautiful art styles (Watercolor, Classic Storybook, Soft Pastel, Paper Craft)",
+    "4 story moods (Adventurous, Calming, Funny, Educational)",
+    "Values-based lessons (kindness, courage, honesty, teamwork)",
+    "Zero data collection — complete family privacy",
+    "Offline reading after generation",
+    "Flexible story lengths (3, 5, or 7 minutes)"
+  ],
+  "ageRange": "3-11",
+  "contentRating": "4+",
+  "dataCollection": "none",
+  "pricing": {
+    "free": "Limited stories per week, all themes available",
+    "premiumWeekly": "$3.99/week — unlimited stories, all features",
+    "premiumMonthly": "$17.99/month — unlimited stories, all features",
+    "storyPack": "$5.99 one-time — bundle of story credits"
+  },
+  "compatibility": {
+    "iPhone": "iOS 15.1+",
+    "iPad": "iPadOS 15.1+",
+    "Mac": "macOS 12.0+ (Apple M1 chip or later)",
+    "VisionPro": "visionOS 1.0+"
+  },
+  "appStore": {
+    "id": "6757753343",
+    "url": "https://apps.apple.com/us/app/perfecttales-bedtime-stories/id6757753343"
+  },
+  "website": "https://perfecttales.app",
+  "guides": "https://perfecttales.app/guides/best-bedtime-story-apps-2026",
+  "brandFacts": "https://perfecttales.app/brand-facts",
+  "privacyPolicy": "https://perfecttales.app/privacy",
+  "termsOfService": "https://perfecttales.app/terms",
+  "lastUpdated": "2026-02-25"
+}
