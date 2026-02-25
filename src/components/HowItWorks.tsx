@@ -3,7 +3,7 @@ const steps = [
     number: "01",
     title: "Create Your Character",
     description:
-      "Enter your child's name, age (3-11), and pick from fun themes like dragons, unicorns, space adventures, and more.",
+      "Enter your child's name, age (3-11), and pick from 12 themes and 4 immersive worlds — dragons, mermaids, moon kingdom, and more.",
     icon: "🧒",
     accent: "primary",
   },

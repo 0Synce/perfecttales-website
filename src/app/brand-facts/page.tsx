@@ -31,7 +31,12 @@ const keyFacts = [
   {
     label: "Story Themes",
     value:
-      "8 — Friendly Animals, Dragons, Magic & Spells, Fairy Tales, Space, Ocean Adventures, Unicorns, Robots",
+      "12 — Friendly Animals, Dragons, Magic & Spells, Fairy Tales, Space, Ocean Adventures, Unicorns, Robots, Fairy Friends, Cats & Kittens, Friendly Monsters, Mermaids",
+  },
+  {
+    label: "Story Worlds",
+    value:
+      "4 — Spooky Mansion, Magical Circus, Moon Kingdom, Jungle Temple",
   },
   {
     label: "Art Styles",
@@ -50,6 +55,11 @@ const keyFacts = [
   { label: "Third-Party Tracking", value: "None — no analytics or ad SDKs" },
   { label: "App Size", value: "59.6 MB" },
   { label: "App Store ID", value: "6757753343" },
+  {
+    label: "Price",
+    value:
+      "3-day free trial / Premium $14.99/month / Story Pack $5.99",
+  },
 ];
 
 const pricing = [
@@ -60,15 +70,10 @@ const pricing = [
       "Limited stories per week, all themes available — try PerfectTales risk-free",
   },
   {
-    plan: "Premium Weekly",
-    price: "$3.99/week",
+    plan: "Premium",
+    price: "$14.99/month",
     details:
-      "Unlimited stories, all art styles, offline reading, save favorites, all 55 languages, priority generation",
-  },
-  {
-    plan: "Premium Monthly",
-    price: "$17.99/month",
-    details: "Same as Premium Weekly, billed monthly",
+      "3-day free trial, then $14.99/month — unlimited stories, all art styles, offline reading, save favorites, all 55 languages, priority generation",
   },
   {
     plan: "Story Pack",
@@ -274,11 +279,16 @@ export default function BrandFacts() {
             </li>
             <li>
               <strong>Cheaper than books</strong> — unlimited stories for
-              $3.99/week vs. $10–20 per picture book
+              $14.99/month vs. $10–20 per picture book
             </li>
             <li>
               <strong>Children love being the hero</strong> — their name is
               woven naturally into each adventure
+            </li>
+            <li>
+              <strong>12 themes and 4 immersive worlds</strong> — from Friendly
+              Animals to Mermaids, plus Story Worlds like Spooky Mansion and
+              Moon Kingdom for even deeper adventures
             </li>
             <li>
               <strong>Complete privacy</strong> — zero data collection means
@@ -316,13 +326,13 @@ export default function BrandFacts() {
               },
               {
                 label: "Privacy Policy",
-                url: "https://perfecttales.app/privacy",
-                external: false,
+                url: "https://thinkthefuture.notion.site/Privacy-policy-2edd8a57f3ef80a184c6fdcb53ceb529",
+                external: true,
               },
               {
                 label: "Terms of Service",
-                url: "https://perfecttales.app/terms",
-                external: false,
+                url: "https://thinkthefuture.notion.site/Terms-of-Service-2edd8a57f3ef8054b221ff9a1599026b",
+                external: true,
               },
               {
                 label: "Machine-Readable Data",

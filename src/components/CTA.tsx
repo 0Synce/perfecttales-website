@@ -58,7 +58,7 @@ export default function CTA() {
             </div>
           </a>
 
-          <span className="text-white/40 text-sm">Free • No account required</span>
+          <span className="text-white/40 text-sm">3-day free trial • No account required</span>
         </div>
 
         <div className="flex flex-wrap items-center gap-6 justify-center mt-10 text-white/50 text-sm">

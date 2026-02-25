@@ -30,8 +30,8 @@ export const metadata: Metadata = {
 const comparison = [
   {
     aspect: "Cost per story",
-    perfecttales: "~$0.14 (unlimited for $3.99/week)",
-    books: "$10–20 per book",
+    perfecttales: "~$0.50 (unlimited for $14.99/month)",
+    books: "$9–20 per book",
     winner: "perfecttales",
   },
   {
@@ -111,7 +111,7 @@ const faqs = [
   {
     question: "How much cheaper is PerfectTales than buying books?",
     answer:
-      "Significantly cheaper. A typical children's picture book costs $10–20 for one story. PerfectTales offers unlimited unique, personalized stories for $3.99/week — that's roughly $0.14 per story. In one month of daily stories, PerfectTales costs about $16 versus $300–600 for 30 individual picture books.",
+      "Significantly cheaper. A typical children's picture book costs $9–20 for one story. PerfectTales offers unlimited unique, personalized stories for $14.99/month after a 3-day free trial — that's roughly $0.50 per story. In one month of daily stories, PerfectTales costs about $15 versus $270–600 for 30 individual picture books.",
   },
   {
     question: "Can PerfectTales help my child learn to read?",
@@ -168,9 +168,9 @@ export default function ComparisonPage() {
           </h2>
           <p className="text-foreground leading-relaxed">
             PerfectTales is the most cost-effective way to give your child a
-            fresh, personalized bedtime story every night. At $3.99/week for
-            unlimited AI-generated stories (about $0.14 per story), it costs a
-            fraction of picture books ($10–20 each). Every story features your
+            fresh, personalized bedtime story every night. At $14.99/month for
+            unlimited AI-generated stories after a 3-day free trial (about $0.50 per story), it costs a
+            fraction of picture books ($9–20 each). Every story features your
             child as the hero, with stunning illustrations and age-appropriate
             vocabulary in 55 languages. Physical books still offer a cherished
             tactile experience — the best approach is using PerfectTales for
@@ -251,16 +251,16 @@ export default function ComparisonPage() {
                 PerfectTales Premium
               </h3>
               <div className="space-y-2 text-sm text-muted">
-                <p>$3.99/week = ~$17/month</p>
-                <p>30 unique stories/month = <strong className="text-primary">~$0.57/story</strong></p>
+                <p>$14.99/month (3-day free trial)</p>
+                <p>30 unique stories/month = <strong className="text-primary">~$0.50/story</strong></p>
                 <p>
-                  (Even more stories? Still $17/month — unlimited means
+                  (Even more stories? Still $14.99/month — unlimited means
                   unlimited)
                 </p>
               </div>
               <div className="mt-4 pt-4 border-t border-primary/10">
                 <p className="text-foreground font-semibold">
-                  Annual cost: ~$207 for 365+ unique personalized stories
+                  Annual cost: ~$180 for 365+ unique personalized stories
                 </p>
               </div>
             </div>

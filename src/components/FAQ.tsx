@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "How does the story personalization work?",
     answer:
-      "You enter your child's name and age, then choose from 8 enchanting themes (like dragons, unicorns, space, or ocean adventures), select a mood (Adventurous, Calming, Funny, or Educational), pick a beautiful art style (Watercolor, Classic Storybook, Soft Pastel, or Paper Craft), set the story length, and optionally include values-based lessons. The AI instantly generates a completely unique, beautifully illustrated story — the deepest personalization of any bedtime story app.",
+      "You enter your child's name and age, then choose from 12 enchanting themes (like dragons, unicorns, mermaids, or cats & kittens), pick a world (Spooky Mansion, Magical Circus, Moon Kingdom, or Jungle Temple), select a mood (Adventurous, Calming, Funny, or Educational), pick a beautiful art style (Watercolor, Classic Storybook, Soft Pastel, or Paper Craft), set the story length, and optionally include values-based lessons. The AI instantly generates a completely unique, beautifully illustrated story — the deepest personalization of any bedtime story app.",
   },
   {
     question: "What languages does PerfectTales support?",
@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Is PerfectTales free?",
     answer:
-      "PerfectTales is free to download and try with a limited number of stories per week. For unlimited stories and full access to all features, you can upgrade to Premium Weekly ($3.99/week) or purchase a Story Pack ($5.99 one-time) for a bundle of story credits.",
+      "PerfectTales offers a 3-day free trial so you can try all features risk-free. After that, Premium is just $14.99/month for unlimited stories — that's less than the price of a single picture book for a whole month of unique, personalized bedtime stories every night.",
   },
   {
     question: "What devices does PerfectTales work on?",

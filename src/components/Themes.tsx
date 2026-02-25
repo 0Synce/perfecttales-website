@@ -7,6 +7,41 @@ const themes = [
   { emoji: "🌊", name: "Ocean Adventures", bg: "from-cyan-50 to-blue-50", border: "border-cyan-200" },
   { emoji: "🦄", name: "Unicorns", bg: "from-fuchsia-50 to-purple-50", border: "border-fuchsia-200" },
   { emoji: "🤖", name: "Robots", bg: "from-slate-50 to-zinc-100", border: "border-slate-200" },
+  { emoji: "🧚‍♀️", name: "Fairy Friends", bg: "from-violet-50 to-fuchsia-50", border: "border-violet-200" },
+  { emoji: "🐱", name: "Cats & Kittens", bg: "from-orange-50 to-yellow-50", border: "border-orange-200" },
+  { emoji: "👹", name: "Friendly Monsters", bg: "from-lime-50 to-green-50", border: "border-lime-200" },
+  { emoji: "🧜‍♀️", name: "Mermaids", bg: "from-teal-50 to-cyan-50", border: "border-teal-200" },
+];
+
+const worlds = [
+  {
+    emoji: "👻",
+    name: "Spooky Mansion",
+    description: "Playful ghosts, secret passages — more silly than scary",
+    bg: "from-gray-100 to-purple-50",
+    border: "border-gray-300",
+  },
+  {
+    emoji: "🎪",
+    name: "Magical Circus",
+    description: "Acrobats, clowns, and a glowing big top under the stars",
+    bg: "from-red-50 to-yellow-50",
+    border: "border-red-200",
+  },
+  {
+    emoji: "🌙",
+    name: "Moon Kingdom",
+    description: "Silver castles, bouncing craters, and gentle moon creatures",
+    bg: "from-indigo-50 to-blue-50",
+    border: "border-indigo-200",
+  },
+  {
+    emoji: "🏛️",
+    name: "Jungle Temple",
+    description: "Ancient temple overgrown with vines, full of puzzles",
+    bg: "from-emerald-50 to-lime-50",
+    border: "border-emerald-200",
+  },
 ];
 
 const artStyles = [
@@ -46,17 +81,17 @@ export default function Themes() {
             <span>🎭</span> Endless Possibilities
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-foreground mb-5">
-            Themes & <span className="gradient-text">Art Styles</span>
+            Themes, Worlds & <span className="gradient-text">Art Styles</span>
           </h2>
           <p className="text-lg text-muted leading-relaxed">
-            Mix and match from 8 magical themes and 4 beautiful art styles for a story that&apos;s truly unique.
+            Mix and match from 12 magical themes, 4 immersive worlds, and 4 beautiful art styles for a story that&apos;s truly unique.
           </p>
         </div>
 
         {/* Themes Grid */}
         <div className="mb-16">
-          <h3 className="text-xl font-bold text-foreground mb-6 text-center">Story Themes</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <h3 className="text-xl font-bold text-foreground mb-6 text-center">12 Story Themes</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {themes.map((theme) => (
               <div
                 key={theme.name}
@@ -73,9 +108,32 @@ export default function Themes() {
           </div>
         </div>
 
+        {/* Worlds Grid */}
+        <div className="mb-16">
+          <h3 className="text-xl font-bold text-foreground mb-6 text-center">4 Immersive Worlds</h3>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {worlds.map((world) => (
+              <div
+                key={world.name}
+                className={`group p-6 rounded-3xl bg-gradient-to-br ${world.bg} border ${world.border} hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-default`}
+              >
+                <div className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300">
+                  {world.emoji}
+                </div>
+                <h4 className="font-bold text-foreground text-lg mb-1">
+                  {world.name}
+                </h4>
+                <p className="text-muted text-sm leading-relaxed">
+                  {world.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Art Styles */}
         <div>
-          <h3 className="text-xl font-bold text-foreground mb-6 text-center">Art Styles</h3>
+          <h3 className="text-xl font-bold text-foreground mb-6 text-center">4 Art Styles</h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {artStyles.map((style) => (
               <div

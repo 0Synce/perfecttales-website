@@ -83,14 +83,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/privacy" className="hover:text-white transition-colors">
+                <a href="https://thinkthefuture.notion.site/Privacy-policy-2edd8a57f3ef80a184c6fdcb53ceb529" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   Privacy Policy
-                </Link>
+                </a>
               </li>
               <li>
-                <Link href="/terms" className="hover:text-white transition-colors">
+                <a href="https://thinkthefuture.notion.site/Terms-of-Service-2edd8a57f3ef8054b221ff9a1599026b" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   Terms of Service
-                </Link>
+                </a>
               </li>
               <li className="text-xs mt-4 text-white/40">
                 Developer: Simon Majar

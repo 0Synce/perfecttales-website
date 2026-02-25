@@ -24,6 +24,14 @@ const features = [
     border: "border-secondary/20",
   },
   {
+    icon: "🌙",
+    title: "12 Themes & 4 Worlds",
+    description:
+      "12 enchanting themes from Friendly Animals to Mermaids, plus 4 immersive worlds like Spooky Mansion, Magical Circus, Moon Kingdom, and Jungle Temple. Endless variety for bedtime.",
+    color: "from-violet-50 to-indigo-50",
+    border: "border-violet-200",
+  },
+  {
     icon: "⏱️",
     title: "Perfect Length",
     description:
@@ -77,7 +85,7 @@ export default function Features() {
         </div>
 
         {/* Features Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
           {features.map((feature) => (
             <article
               key={feature.title}

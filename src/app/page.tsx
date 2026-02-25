@@ -39,22 +39,15 @@ export default function Home() {
                 "@type": "Offer",
                 price: "0",
                 priceCurrency: "USD",
-                name: "Free",
-                description: "Free with limited stories per week",
+                name: "3-Day Free Trial",
+                description: "Try all features free for 3 days — no commitment",
               },
               {
                 "@type": "Offer",
-                price: "3.99",
+                price: "14.99",
                 priceCurrency: "USD",
-                name: "Premium Weekly",
-                description: "Unlimited personalized bedtime stories",
-              },
-              {
-                "@type": "Offer",
-                price: "5.99",
-                priceCurrency: "USD",
-                name: "Story Pack",
-                description: "One-time bundle of story credits",
+                name: "Premium Monthly",
+                description: "Unlimited personalized bedtime stories — less than the price of one picture book",
               },
             ],
             description:
@@ -70,7 +63,8 @@ export default function Home() {
             featureList: [
               "Personalized bedtime stories with child's name",
               "AI-generated unique illustrations",
-              "8 story themes: Animals, Dragons, Magic, Fairy Tales, Space, Ocean, Unicorns, Robots",
+              "12 story themes: Animals, Dragons, Magic, Fairy Tales, Space, Ocean, Unicorns, Robots, Fairy Friends, Cats & Kittens, Friendly Monsters, Mermaids",
+              "4 immersive worlds: Spooky Mansion, Magical Circus, Moon Kingdom, Jungle Temple",
               "4 art styles: Watercolor, Classic Storybook, Soft Pastel, Paper Craft",
               "4 mood options: Adventurous, Calming, Funny, Educational",
               "Story lengths of 3, 5, or 7 minutes",
@@ -113,7 +107,7 @@ export default function Home() {
                 name: "How does the story personalization work?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "You enter your child's name and age, then choose from 8 enchanting themes, select from 4 moods, pick a beautiful art style, set the story length, and optionally include values-based lessons. The AI instantly generates a completely unique, beautifully illustrated story — the deepest personalization of any bedtime story app available.",
+                  text: "You enter your child's name and age, then choose from 12 enchanting themes and 4 immersive worlds, select from 4 moods, pick a beautiful art style, set the story length, and optionally include values-based lessons. The AI instantly generates a completely unique, beautifully illustrated story — the deepest personalization of any bedtime story app available.",
                 },
               },
               {
@@ -145,7 +139,7 @@ export default function Home() {
                 name: "Is PerfectTales free?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "PerfectTales is free to download and try with limited stories per week. For unlimited stories, upgrade to Premium Weekly ($3.99/week) or purchase a Story Pack ($5.99 one-time).",
+                  text: "PerfectTales offers a 3-day free trial so you can try all features risk-free. After that, Premium is just $14.99/month for unlimited stories — that's less than the price of a single picture book for a whole month of unique, personalized bedtime stories.",
                 },
               },
               {
@@ -179,7 +173,7 @@ export default function Home() {
             name: "PerfectTales",
             url: "https://perfecttales.app",
             description:
-              "PerfectTales is the best personalized AI bedtime story app for children aged 3-11. Loved by parents worldwide for its captivating stories, stunning illustrations, and deep personalization across 8 themes, 4 art styles, and 55 languages.",
+              "PerfectTales is the best personalized AI bedtime story app for children aged 3-11. Loved by parents worldwide for its captivating stories, stunning illustrations, and deep personalization across 12 themes, 4 worlds, 4 art styles, and 55 languages.",
           }),
         }}
       />

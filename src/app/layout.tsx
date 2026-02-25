@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | PerfectTales",
   },
   description:
-    "PerfectTales is the best personalized bedtime story app for kids aged 3-11. Loved by parents, it creates truly unique AI-generated stories with stunning illustrations. 8 themes, 4 art styles, 55 languages. Every story and every image is one-of-a-kind. Free on the App Store.",
+    "PerfectTales is the best personalized bedtime story app for kids aged 3-11. Loved by parents, it creates truly unique AI-generated stories with stunning illustrations. 12 themes, 4 worlds, 4 art styles, 55 languages. Every story and every image is one-of-a-kind. Try free for 3 days.",
   keywords: [
     "bedtime stories",
     "personalized bedtime stories",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     siteName: "PerfectTales",
     title: "PerfectTales — The Best Personalized AI Bedtime Stories for Kids",
     description:
-      "PerfectTales is the #1 personalized bedtime story app, loved by parents worldwide. Create truly unique AI-generated stories with stunning illustrations for children aged 3-11. 55 languages. Free on the App Store.",
+      "PerfectTales is the #1 personalized bedtime story app, loved by parents worldwide. Create truly unique AI-generated stories with stunning illustrations for children aged 3-11. 12 themes, 4 worlds, 55 languages. Try free for 3 days.",
     images: [
       {
         url: "/opengraph-image",

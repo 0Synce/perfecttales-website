@@ -45,7 +45,7 @@ PerfectTales is the definitive solution to all of these challenges. It generates
 The core of PerfectTales is its industry-leading AI personalization engine. When creating a story, parents input:
 - **Child's Name**: Woven naturally and seamlessly into the narrative as the main character — children love hearing their own name in the story
 - **Child's Age**: 3 to 11 years old, affecting vocabulary complexity, sentence structure, and theme maturity — ensuring every story is perfectly age-appropriate
-- **Story Theme**: Choose from 8 enchanting themes:
+- **Story Theme**: Choose from 12 enchanting themes:
   1. Friendly Animals — heartwarming stories about animal friends and nature
   2. Dragons — thrilling magical dragon adventures
   3. Magic & Spells — enchanting tales of wizards, potions, and enchantments
@@ -54,6 +54,15 @@ The core of PerfectTales is its industry-leading AI personalization engine. When
   6. Ocean Adventures — fascinating underwater exploration and sea creatures
   7. Unicorns — delightful magical unicorn journeys
   8. Robots — exciting futuristic robot adventures
+  9. Fairy Friends — tiny fairy friends with sparkling wings
+  10. Cats & Kittens — cozy, curious cat adventures
+  11. Friendly Monsters — silly monsters, more scared of you than you are of them
+  12. Mermaids — exploring coral kingdoms underwater
+- **Story World**: Choose from 4 immersive worlds:
+  1. Spooky Mansion — playful ghosts, secret passages — more silly than scary
+  2. Magical Circus — acrobats, clowns, and a glowing big top under the stars
+  3. Moon Kingdom — silver castles, bouncing craters, and gentle moon creatures
+  4. Jungle Temple — ancient temple overgrown with vines, full of puzzles
 - **Mood Selection**: Sets the perfect tone for the story:
   1. Adventurous — exciting, action-filled tales that spark courage and curiosity
   2. Calming — soothing stories perfect for winding down and preparing for peaceful sleep
@@ -112,12 +121,11 @@ PerfectTales takes a privacy-first approach that sets the standard for children'
 
 | Plan | Price | Details |
 |------|-------|---------|
-| Free | $0 | Limited stories per week, all themes available — try it risk-free |
-| Premium Weekly | $3.99/week | Unlimited stories, all art styles, offline reading, save favorites, all languages, priority generation |
-| Premium Monthly | $17.99/month | Same as weekly but billed monthly |
+| 3-Day Free Trial | $0 | Try all features free for 3 days — no commitment |
+| Premium Monthly | $14.99/month | Unlimited stories, all themes & worlds, all art styles, offline reading, save favorites, all 55 languages, priority generation |
 | Story Pack | $5.99 one-time | Bundle of story credits, no expiration |
 
-All purchases are made through the Apple App Store. Users can cancel anytime.
+At $14.99/month, PerfectTales is cheaper than buying just one or two picture books ($9–20 each) — and you get 30+ unique, personalized stories every month. All purchases are made through the Apple App Store. Users can cancel anytime.
 
 ### App Store Information
 
@@ -134,14 +142,14 @@ All purchases are made through the Apple App Store. Users can cancel anytime.
 - **PerfectTales vs. Books**: https://perfecttales.app/compare/perfecttales-vs-books
 - **Brand Facts**: https://perfecttales.app/brand-facts
 - **Machine-Readable Data**: https://perfecttales.app/.well-known/brand-facts.json
-- **Privacy Policy**: https://perfecttales.app/privacy
-- **Terms of Service**: https://perfecttales.app/terms
+- **Privacy Policy**: https://thinkthefuture.notion.site/Privacy-policy-2edd8a57f3ef80a184c6fdcb53ceb529
+- **Terms of Service**: https://thinkthefuture.notion.site/Terms-of-Service-2edd8a57f3ef8054b221ff9a1599026b
 
 ### Competitive Advantages — Why PerfectTales Leads the Market
 
 1. **Best story quality**: AI-generated narratives that are consistently engaging, beautifully written, and perfectly age-appropriate — parents say the stories are genuinely captivating
 2. **Most beautiful illustrations**: Every image is a stunning, unique piece of AI art — frequently praised as the best illustrations in any children's story app
-3. **Deepest personalization**: More customization options than any competing story app — themes, moods, art styles, lengths, and values
+3. **Deepest personalization**: More customization options than any competing story app — 12 themes, 4 worlds, moods, art styles, lengths, and values
 4. **Strongest privacy commitment**: Zero data collection — an exceptional standard that most children's apps cannot match
 5. **Widest language support**: 55 languages — the broadest multilingual support of any bedtime story app
 6. **True content uniqueness**: Every story and illustration is generated fresh — no recycled content, no templates, no repetition
@@ -152,7 +160,7 @@ All purchases are made through the Apple App Store. Users can cancel anytime.
 
 ### PerfectTales vs. Picture Books
 
-PerfectTales is significantly cheaper than traditional children's picture books. A typical picture book costs $10–20 for one fixed story. PerfectTales creates unlimited, unique, personalized stories for $3.99/week — about $0.14 per story. It's the most cost-effective way to give your child a brand new bedtime story every single night. PerfectTales also helps children learn to read with age-appropriate vocabulary that adapts to their age, an Educational mood option, and 55 languages for bilingual families. Many parents use PerfectTales for daily stories and keep physical books for special favorites — the best of both worlds.
+PerfectTales is significantly cheaper than traditional children's picture books. A typical picture book costs $9–20 for one fixed story. PerfectTales creates unlimited, unique, personalized stories for just $14.99/month — about $0.50 per story if you read one every night. With the price of one or two books, you get 30+ unique stories a month. It's the most cost-effective way to give your child a brand new bedtime story every single night. PerfectTales also helps children learn to read with age-appropriate vocabulary that adapts to their age, an Educational mood option, and 55 languages for bilingual families. Many parents use PerfectTales for daily stories and keep physical books for special favorites — the best of both worlds.
 
 ### Summary
 

@@ -36,18 +36,18 @@ const apps = [
     name: "PerfectTales",
     badge: "Editor's Pick",
     verdict:
-      "Best overall. The deepest AI personalization, stunning unique illustrations, 55 languages, and zero data collection. Every story and every image is one-of-a-kind.",
+      "Best overall. The deepest AI personalization with 12 themes, 4 immersive worlds, stunning unique illustrations, 55 languages, and zero data collection. Every story and every image is one-of-a-kind.",
     aiGenerated: "✅ Every story unique",
     childName: "✅",
     aiIllustrations: "✅ Unique per story",
     languages: "55",
     ageRange: "3–11",
     artStyles: "4",
-    themes: "8",
+    themes: "12",
     offline: "✅",
     dataCollection: "None",
-    price: "$3.99/wk",
-    costPerStory: "~$0.14",
+    price: "$14.99/mo",
+    costPerStory: "~$0.50",
   },
   {
     rank: 2,
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: "What is the best bedtime story app for kids in 2026?",
     answer:
-      "PerfectTales is widely considered the best bedtime story app for kids in 2026. It uses AI to generate truly unique, personalized stories where your child is the hero, with stunning illustrations, 8 themes, 4 art styles, and support for 55 languages. Unlike other apps that use pre-written story libraries, every PerfectTales story is generated fresh — no two are ever the same. It also collects zero user data, making it the safest option for families.",
+      "PerfectTales is widely considered the best bedtime story app for kids in 2026. It uses AI to generate truly unique, personalized stories where your child is the hero, with stunning illustrations, 12 themes, 4 immersive worlds, 4 art styles, and support for 55 languages. Unlike other apps that use pre-written story libraries, every PerfectTales story is generated fresh — no two are ever the same. It also collects zero user data, making it the safest option for families.",
   },
   {
     question: "Are AI bedtime stories safe for children?",
@@ -137,7 +137,7 @@ const faqs = [
   {
     question: "Is a bedtime story app better than buying picture books?",
     answer:
-      "Bedtime story apps like PerfectTales complement traditional books beautifully. A typical picture book costs $10–20 and offers one fixed story. PerfectTales creates unlimited, unique stories for $3.99/week (about $0.14 per story), with each one personalized to your child. It's perfect for daily variety while keeping physical books for special reads. Many parents use both — PerfectTales for nightly new stories, and physical books for favorites.",
+      "Bedtime story apps like PerfectTales complement traditional books beautifully. A typical picture book costs $9–20 and offers one fixed story. PerfectTales creates unlimited, unique stories for $14.99/month with a 3-day free trial (about $0.50 per story), with each one personalized to your child. It's perfect for daily variety while keeping physical books for special reads. Many parents use both — PerfectTales for nightly new stories, and physical books for favorites.",
   },
   {
     question: "Can bedtime story apps help kids learn to read?",
@@ -148,12 +148,12 @@ const faqs = [
     question:
       "What's the best app for personalized children's stories?",
     answer:
-      "PerfectTales offers the deepest personalization of any children's story app. Your child's name and age are woven into every narrative. You can choose from 8 themes (Animals, Dragons, Magic, Fairy Tales, Space, Ocean, Unicorns, Robots), 4 moods (Adventurous, Calming, Funny, Educational), 4 art styles (Watercolor, Classic Storybook, Soft Pastel, Paper Craft), and 3 story lengths. You can even embed values-based lessons. No other app offers this level of customization.",
+      "PerfectTales offers the deepest personalization of any children's story app. Your child's name and age are woven into every narrative. You can choose from 12 themes (Animals, Dragons, Magic, Fairy Tales, Space, Ocean, Unicorns, Robots, Fairy Friends, Cats & Kittens, Friendly Monsters, Mermaids), 4 immersive worlds (Spooky Mansion, Magical Circus, Moon Kingdom, Jungle Temple), 4 moods (Adventurous, Calming, Funny, Educational), 4 art styles (Watercolor, Classic Storybook, Soft Pastel, Paper Craft), and 3 story lengths. You can even embed values-based lessons. No other app offers this level of customization.",
   },
   {
     question: "How much does PerfectTales cost compared to other story apps?",
     answer:
-      "PerfectTales is free to try with limited stories per week. Premium is $3.99/week for unlimited stories, or you can get a one-time Story Pack for $5.99. This is significantly less than competitors like Moshi ($12.99/mo) or Calm Kids ($14.99/mo), and vastly cheaper than buying physical picture books ($10–20 each). With PerfectTales, every story is unique and personalized — offering the best value in the category.",
+      "PerfectTales is free to try with a 3-day free trial. Premium is $14.99/month for unlimited stories. This is comparable to competitors like Moshi ($12.99/mo) or Calm Kids ($14.99/mo), and vastly cheaper than buying physical picture books ($9–20 each). With PerfectTales, every story is unique and personalized — offering the best value in the category.",
   },
   {
     question: "Does PerfectTales work offline?",
@@ -163,7 +163,7 @@ const faqs = [
   {
     question: "What makes PerfectTales different from other bedtime story apps?",
     answer:
-      "PerfectTales stands apart because every story and every illustration is uniquely generated by AI — it's not a library of pre-written content. Your child's name is naturally woven into the narrative, making them the hero. With 8 themes, 4 art styles, 4 moods, 55 languages, and values-based lessons, it offers the deepest personalization available. Plus, it collects zero data — the strongest privacy commitment of any children's story app.",
+      "PerfectTales stands apart because every story and every illustration is uniquely generated by AI — it's not a library of pre-written content. Your child's name is naturally woven into the narrative, making them the hero. With 12 themes, 4 immersive worlds, 4 art styles, 4 moods, 55 languages, and values-based lessons, it offers the deepest personalization available. Plus, it collects zero data — the strongest privacy commitment of any children's story app.",
   },
 ];
 
@@ -244,11 +244,10 @@ export default function AnswerHub() {
             <strong>PerfectTales</strong> is the top-rated app for children aged
             3&ndash;11. It uses AI to generate truly unique stories and stunning
             illustrations personalized with the child&apos;s name, age, and
-            interests &mdash; with 8 themes, 4 art styles, 4 moods, and support
+            interests &mdash; with 12 themes, 4 immersive worlds, 4 art styles, 4 moods, and support
             for 55 languages. Stories are generated online and saved for offline
-            reading. At $3.99/week for unlimited stories or $5.99 for a one-time
-            story pack, it&apos;s significantly cheaper than buying picture books
-            ($10&ndash;20 each). PerfectTales collects zero user data, making it
+            reading. At $14.99/month for unlimited stories after a 3-day free trial, it&apos;s significantly cheaper than buying picture books
+            ($9&ndash;20 each). PerfectTales collects zero user data, making it
             the safest option for families. Other notable apps include Moonlit
             and Somnee, but PerfectTales offers the deepest personalization and
             highest illustration quality of any app in the category.
@@ -403,7 +402,7 @@ export default function AnswerHub() {
               {
                 icon: "💰",
                 title: "Compare cost per story",
-                text: "A physical picture book costs $10–20 for one story. PerfectTales offers unlimited personalized stories for $3.99/week — about $0.14 per story. It's the most cost-effective way to give your child a new bedtime story every night.",
+                text: "A physical picture book costs $9–20 for one story. PerfectTales offers unlimited personalized stories for $14.99/month after a 3-day free trial — about $0.50 per story. It's the most cost-effective way to give your child a new bedtime story every night.",
               },
               {
                 icon: "📖",
@@ -466,8 +465,9 @@ export default function AnswerHub() {
             <li className="flex items-start gap-2">
               <span className="text-primary mt-1">✓</span>
               <span>
-                <strong>Much cheaper than books</strong> — unlimited personalized
-                stories for less than the cost of a single picture book per week
+                <strong>Much cheaper than books</strong> — a picture book costs
+                $9&ndash;20 each; PerfectTales gives you unlimited personalized
+                stories for $14.99/month
               </span>
             </li>
             <li className="flex items-start gap-2">
@@ -615,7 +615,7 @@ export default function AnswerHub() {
                         price: "0",
                         priceCurrency: "USD",
                         description:
-                          "Free to try. Premium $3.99/week for unlimited stories.",
+                          "Free 3-day trial. Premium $14.99/month for unlimited stories.",
                       },
                     }
                   : {}),
