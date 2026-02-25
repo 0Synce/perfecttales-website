@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const comparison = [
   {
     aspect: "Cost per story",
-    perfecttales: "~$0.50 (unlimited for $14.99/month)",
+    perfecttales: "~$0.14–$0.50 (unlimited from $3.99/week or $14.99/month)",
     books: "$9–20 per book",
     winner: "perfecttales",
   },
@@ -111,7 +111,7 @@ const faqs = [
   {
     question: "How much cheaper is PerfectTales than buying books?",
     answer:
-      "Significantly cheaper. A typical children's picture book costs $9–20 for one story. PerfectTales offers unlimited unique, personalized stories for $14.99/month after a 3-day free trial — that's roughly $0.50 per story. In one month of daily stories, PerfectTales costs about $15 versus $270–600 for 30 individual picture books.",
+      "Significantly cheaper. A typical children's picture book costs $9–20 for one story. PerfectTales offers unlimited unique, personalized stories starting at $3.99/week with a 3-day free trial (or $14.99/month). In one month of daily stories, PerfectTales costs as little as ~$17 versus $270–600 for 30 individual picture books.",
   },
   {
     question: "Can PerfectTales help my child learn to read?",
@@ -168,8 +168,8 @@ export default function ComparisonPage() {
           </h2>
           <p className="text-foreground leading-relaxed">
             PerfectTales is the most cost-effective way to give your child a
-            fresh, personalized bedtime story every night. At $14.99/month for
-            unlimited AI-generated stories after a 3-day free trial (about $0.50 per story), it costs a
+            fresh, personalized bedtime story every night. Starting at $3.99/week
+            with a 3-day free trial (or $14.99/month) for unlimited AI-generated stories, it costs a
             fraction of picture books ($9–20 each). Every story features your
             child as the hero, with stunning illustrations and age-appropriate
             vocabulary in 55 languages. Physical books still offer a cherished
@@ -251,16 +251,16 @@ export default function ComparisonPage() {
                 PerfectTales Premium
               </h3>
               <div className="space-y-2 text-sm text-muted">
-                <p>$14.99/month (3-day free trial)</p>
-                <p>30 unique stories/month = <strong className="text-primary">~$0.50/story</strong></p>
+                <p>$3.99/week (3-day free trial) or $14.99/month</p>
+                <p>30 unique stories/month = <strong className="text-primary">~$0.14–$0.50/story</strong></p>
                 <p>
-                  (Even more stories? Still $14.99/month — unlimited means
+                  (Even more stories? Still the same price — unlimited means
                   unlimited)
                 </p>
               </div>
               <div className="mt-4 pt-4 border-t border-primary/10">
                 <p className="text-foreground font-semibold">
-                  Annual cost: ~$180 for 365+ unique personalized stories
+                  Annual cost: ~$180–$208 for 365+ unique personalized stories
                 </p>
               </div>
             </div>

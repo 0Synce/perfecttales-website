@@ -52,8 +52,8 @@ export default function TermsPage() {
               Store:
             </p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Premium Weekly: $3.99/week (auto-renewable)</li>
-              <li>Premium Monthly: $17.99/month (auto-renewable)</li>
+              <li>Premium Weekly: $3.99/week (auto-renewable, includes 3-day free trial)</li>
+              <li>Premium Monthly: $14.99/month (auto-renewable)</li>
               <li>Story Pack: $5.99 (one-time purchase)</li>
             </ul>
             <p>

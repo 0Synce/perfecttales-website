@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Is PerfectTales free?",
     answer:
-      "PerfectTales offers a 3-day free trial so you can try all features risk-free. After that, Premium is just $14.99/month for unlimited stories — that's less than the price of a single picture book for a whole month of unique, personalized bedtime stories every night.",
+      "PerfectTales offers a 3-day free trial on the weekly plan so you can try all features risk-free. After that, choose Premium Weekly at $3.99/week or Premium Monthly at $14.99/month for unlimited stories — both options cost less than a single picture book and give you a whole month of unique, personalized bedtime stories every night.",
   },
   {
     question: "What devices does PerfectTales work on?",

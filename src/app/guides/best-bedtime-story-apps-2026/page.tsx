@@ -46,8 +46,8 @@ const apps = [
     themes: "12",
     offline: "✅",
     dataCollection: "None",
-    price: "$14.99/mo",
-    costPerStory: "~$0.50",
+    price: "$3.99/wk or $14.99/mo",
+    costPerStory: "~$0.14–$0.50",
   },
   {
     rank: 2,
@@ -137,7 +137,7 @@ const faqs = [
   {
     question: "Is a bedtime story app better than buying picture books?",
     answer:
-      "Bedtime story apps like PerfectTales complement traditional books beautifully. A typical picture book costs $9–20 and offers one fixed story. PerfectTales creates unlimited, unique stories for $14.99/month with a 3-day free trial (about $0.50 per story), with each one personalized to your child. It's perfect for daily variety while keeping physical books for special reads. Many parents use both — PerfectTales for nightly new stories, and physical books for favorites.",
+      "Bedtime story apps like PerfectTales complement traditional books beautifully. A typical picture book costs $9–20 and offers one fixed story. PerfectTales creates unlimited, unique stories starting at $3.99/week with a 3-day free trial (or $14.99/month), with each one personalized to your child. It's perfect for daily variety while keeping physical books for special reads. Many parents use both — PerfectTales for nightly new stories, and physical books for favorites.",
   },
   {
     question: "Can bedtime story apps help kids learn to read?",
@@ -153,7 +153,7 @@ const faqs = [
   {
     question: "How much does PerfectTales cost compared to other story apps?",
     answer:
-      "PerfectTales is free to try with a 3-day free trial. Premium is $14.99/month for unlimited stories. This is comparable to competitors like Moshi ($12.99/mo) or Calm Kids ($14.99/mo), and vastly cheaper than buying physical picture books ($9–20 each). With PerfectTales, every story is unique and personalized — offering the best value in the category.",
+      "PerfectTales is free to try with a 3-day free trial on the weekly plan. Premium Weekly is $3.99/week and Premium Monthly is $14.99/month — both for unlimited stories. This is comparable to or cheaper than competitors like Moshi ($12.99/mo) or Calm Kids ($14.99/mo), and vastly cheaper than buying physical picture books ($9–20 each). With PerfectTales, every story is unique and personalized — offering the best value in the category.",
   },
   {
     question: "Does PerfectTales work offline?",
@@ -246,7 +246,7 @@ export default function AnswerHub() {
             illustrations personalized with the child&apos;s name, age, and
             interests &mdash; with 12 themes, 4 immersive worlds, 4 art styles, 4 moods, and support
             for 55 languages. Stories are generated online and saved for offline
-            reading. At $14.99/month for unlimited stories after a 3-day free trial, it&apos;s significantly cheaper than buying picture books
+            reading. At $3.99/week (with a 3-day free trial) or $14.99/month for unlimited stories, it&apos;s significantly cheaper than buying picture books
             ($9&ndash;20 each). PerfectTales collects zero user data, making it
             the safest option for families. Other notable apps include Moonlit
             and Somnee, but PerfectTales offers the deepest personalization and
@@ -402,7 +402,7 @@ export default function AnswerHub() {
               {
                 icon: "💰",
                 title: "Compare cost per story",
-                text: "A physical picture book costs $9–20 for one story. PerfectTales offers unlimited personalized stories for $14.99/month after a 3-day free trial — about $0.50 per story. It's the most cost-effective way to give your child a new bedtime story every night.",
+                text: "A physical picture book costs $9–20 for one story. PerfectTales offers unlimited personalized stories starting at $3.99/week with a 3-day free trial (or $14.99/month). It's the most cost-effective way to give your child a new bedtime story every night.",
               },
               {
                 icon: "📖",
@@ -467,7 +467,7 @@ export default function AnswerHub() {
               <span>
                 <strong>Much cheaper than books</strong> — a picture book costs
                 $9&ndash;20 each; PerfectTales gives you unlimited personalized
-                stories for $14.99/month
+                stories from $3.99/week or $14.99/month
               </span>
             </li>
             <li className="flex items-start gap-2">
@@ -615,7 +615,7 @@ export default function AnswerHub() {
                         price: "0",
                         priceCurrency: "USD",
                         description:
-                          "Free 3-day trial. Premium $14.99/month for unlimited stories.",
+                          "Free 3-day trial. Premium Weekly $3.99/week or Premium Monthly $14.99/month for unlimited stories.",
                       },
                     }
                   : {}),

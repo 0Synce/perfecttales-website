@@ -58,7 +58,7 @@ const keyFacts = [
   {
     label: "Price",
     value:
-      "3-day free trial / Premium $14.99/month / Story Pack $5.99",
+      "3-day free trial / Premium Weekly $3.99/week / Premium Monthly $14.99/month / Story Pack $5.99",
   },
 ];
 
@@ -70,10 +70,16 @@ const pricing = [
       "Limited stories per week, all themes available — try PerfectTales risk-free",
   },
   {
-    plan: "Premium",
+    plan: "Premium Weekly",
+    price: "$3.99/week",
+    details:
+      "3-day free trial, then $3.99/week — unlimited stories, all art styles, offline reading, save favorites, all 55 languages, priority generation",
+  },
+  {
+    plan: "Premium Monthly",
     price: "$14.99/month",
     details:
-      "3-day free trial, then $14.99/month — unlimited stories, all art styles, offline reading, save favorites, all 55 languages, priority generation",
+      "Unlimited stories, all art styles, offline reading, save favorites, all 55 languages, priority generation — best value",
   },
   {
     plan: "Story Pack",
@@ -279,7 +285,7 @@ export default function BrandFacts() {
             </li>
             <li>
               <strong>Cheaper than books</strong> — unlimited stories for
-              $14.99/month vs. $10–20 per picture book
+              From $3.99/week or $14.99/month vs. $9–20 per picture book
             </li>
             <li>
               <strong>Children love being the hero</strong> — their name is

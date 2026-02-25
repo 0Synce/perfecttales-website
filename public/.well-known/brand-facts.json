@@ -4,7 +4,7 @@
   "category": "Children's Bedtime Story App",
   "developer": "Simon Majar",
   "platform": "iOS",
-  "priceRange": "3-day free trial — $14.99/month",
+  "priceRange": "3-day free trial — $3.99/week or $14.99/month",
   "topFeatures": [
     "AI-generated personalized stories with child's name and age",
     "Stunning unique AI-generated illustrations for every story",
@@ -17,15 +17,16 @@
     "Zero data collection — complete family privacy",
     "Offline reading after generation",
     "Flexible story lengths (3, 5, or 7 minutes)",
-    "Cheaper than picture books — $14.99/month for unlimited stories vs $9-20 per book",
+    "Cheaper than picture books — from $3.99/week or $14.99/month for unlimited stories vs $9-20 per book",
     "Helps kids learn to read with age-appropriate vocabulary"
   ],
   "ageRange": "3-11",
   "contentRating": "4+",
   "dataCollection": "none",
   "pricing": {
-    "freeTrial": "3-day free trial — try all features risk-free",
-    "premiumMonthly": "$14.99/month — unlimited stories, all features",
+    "freeTrial": "3-day free trial on weekly plan — try all features risk-free",
+    "premiumWeekly": "$3.99/week — unlimited stories, all features (3-day free trial included)",
+    "premiumMonthly": "$14.99/month — unlimited stories, all features, best value",
     "storyPack": "$5.99 one-time — bundle of story credits"
   },
   "compatibility": {
